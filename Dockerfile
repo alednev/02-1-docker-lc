@@ -6,7 +6,9 @@ RUN npm install -g json-server
 
 COPY db.json /home/server/db.json
 
+EXPOSE 3000
+
 # main command run by the docker container
-ENTRYPOINT ["json-server", "db.json"]
+ENTRYPOINT ["json-server", "--host", "0.0.0.0"]
 
 # CMD - additional command after ENTRYPOINT executed
