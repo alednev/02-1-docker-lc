@@ -1,0 +1,17 @@
+{
+    "posts": [
+        {
+            "title": "My Cool Post 2",
+            "author": "Alex Lednev 2"
+        },
+        {
+            "title": "My Second Cool Post 2",
+            "author": "Alex Lednev 2"
+        }
+    ],
+    "profile": {
+        "first_name": "Alex 2",
+        "last_name": "Lednev 2",
+        "email": "alednev222@example.com"
+    }
+}
