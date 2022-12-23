@@ -15,12 +15,13 @@ services:
   mysql:
     image: mysql:5.7  # mariadb:10.5 for apple m chips
     ports:
-      - 3306:3306
+      - 3307:3307
     environment:
       MYSQL_DATABASE: laravel
       MYSQL_USER: laravel
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
+      MYSQL_TCP_PORT: 3307
     volumes:
       - ./mysql:/var/lib/mysql
   php:
